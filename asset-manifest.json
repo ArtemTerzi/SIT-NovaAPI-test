@@ -1,13 +1,23 @@
 {
   "files": {
     "main.css": "/SIT-NovaAPI-test/static/css/main.b5320759.css",
-    "main.js": "/SIT-NovaAPI-test/static/js/main.77c91099.js",
+    "main.js": "/SIT-NovaAPI-test/static/js/main.287a1ece.js",
+    "static/js/35.c2a63e31.chunk.js": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js",
+    "static/js/699.c1603d66.chunk.js": "/SIT-NovaAPI-test/static/js/699.c1603d66.chunk.js",
+    "static/js/415.9cf5d98e.chunk.js": "/SIT-NovaAPI-test/static/js/415.9cf5d98e.chunk.js",
+    "static/js/838.f0f11a7d.chunk.js": "/SIT-NovaAPI-test/static/js/838.f0f11a7d.chunk.js",
+    "static/media/dev.png": "/SIT-NovaAPI-test/static/media/dev.663e49ce71af7dc38cfd.png",
+    "static/media/bg.jpg": "/SIT-NovaAPI-test/static/media/bg.76a5d714c08798862a61.jpg",
     "index.html": "/SIT-NovaAPI-test/index.html",
     "main.b5320759.css.map": "/SIT-NovaAPI-test/static/css/main.b5320759.css.map",
-    "main.77c91099.js.map": "/SIT-NovaAPI-test/static/js/main.77c91099.js.map"
+    "main.287a1ece.js.map": "/SIT-NovaAPI-test/static/js/main.287a1ece.js.map",
+    "35.c2a63e31.chunk.js.map": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js.map",
+    "699.c1603d66.chunk.js.map": "/SIT-NovaAPI-test/static/js/699.c1603d66.chunk.js.map",
+    "415.9cf5d98e.chunk.js.map": "/SIT-NovaAPI-test/static/js/415.9cf5d98e.chunk.js.map",
+    "838.f0f11a7d.chunk.js.map": "/SIT-NovaAPI-test/static/js/838.f0f11a7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.77c91099.js"
+    "static/js/main.287a1ece.js"
   ]
 }
