@@ -1,8 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import SharedLayout from "./SharedLayout";
-import HomePage from "pages/HomePage";
-import TrackingPage from "pages/TrackingPage";
-import DepartmentsPage from "pages/DepartmentsPage";
+import { lazy } from "react";
+
+const HomePage = lazy(() => import("pages/HomePage"));
+const TrackingPage = lazy(() => import("pages/TrackingPage"));
+const DepartmentsPage = lazy(() => import("pages/DepartmentsPage"));
 
 export const App = () => {
   return (
