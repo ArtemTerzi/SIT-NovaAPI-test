@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-template/static/css/main.b5320759.css",
-    "main.js": "/react-template/static/js/main.d4deb2ce.js",
-    "index.html": "/react-template/index.html",
-    "main.b5320759.css.map": "/react-template/static/css/main.b5320759.css.map",
-    "main.d4deb2ce.js.map": "/react-template/static/js/main.d4deb2ce.js.map"
+    "main.css": "/SIT-NovaAPI-test/static/css/main.b5320759.css",
+    "main.js": "/SIT-NovaAPI-test/static/js/main.77c91099.js",
+    "index.html": "/SIT-NovaAPI-test/index.html",
+    "main.b5320759.css.map": "/SIT-NovaAPI-test/static/css/main.b5320759.css.map",
+    "main.77c91099.js.map": "/SIT-NovaAPI-test/static/js/main.77c91099.js.map"
   },
   "entrypoints": [
     "static/css/main.b5320759.css",
-    "static/js/main.d4deb2ce.js"
+    "static/js/main.77c91099.js"
   ]
 }
