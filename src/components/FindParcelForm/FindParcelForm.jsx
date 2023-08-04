@@ -1,13 +1,14 @@
 import { TextField } from "@mui/material";
 import { useState } from "react";
 import SearchButton from "components/SearchButton";
+import { getParcelById } from "services/fetchService";
 
 const FindParceleForm = () => {
   const [packageId, setPackageId] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(packageId);
+    getParcelById(packageId);
   };
 
   const handleChange = ({ target: { value } }) => setPackageId(value);
