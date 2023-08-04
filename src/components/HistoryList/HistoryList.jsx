@@ -1,13 +1,16 @@
-//* Just values for test
-const testArray = ["214124534643", "2141536456123", "6456745745214512"];
+import { useSelector } from "react-redux";
+import { selectSearchHistoryList } from "redux/tracking/selectors";
 
 const HistoryList = () => {
+  const searchHistoryList = useSelector(selectSearchHistoryList);
+  const reversedList = [...searchHistoryList].reverse();
+
   return (
     <>
       <h2>Search history</h2>
       <ul>
-        {testArray.map((ttn, index) => (
-          <li key={index}>{ttn}</li>
+        {reversedList.map((el, index) => (
+          <li key={index}>{el.Number}</li>
         ))}
       </ul>
     </>

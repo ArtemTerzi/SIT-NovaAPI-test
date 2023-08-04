@@ -24,6 +24,7 @@ export const getParcelById = async (DocumentNumber) => {
     Status,
     WarehouseSender,
     WarehouseRecipient,
+    createdAt: Date.now(),
   };
 
   return parcelInfo;
