@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/SIT-NovaAPI-test/static/css/main.b5320759.css",
-    "main.js": "/SIT-NovaAPI-test/static/js/main.287a1ece.js",
+    "main.css": "/SIT-NovaAPI-test/static/css/main.bfe65bfc.css",
+    "main.js": "/SIT-NovaAPI-test/static/js/main.324bc5f3.js",
     "static/js/35.c2a63e31.chunk.js": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js",
-    "static/js/699.c1603d66.chunk.js": "/SIT-NovaAPI-test/static/js/699.c1603d66.chunk.js",
-    "static/js/415.9cf5d98e.chunk.js": "/SIT-NovaAPI-test/static/js/415.9cf5d98e.chunk.js",
-    "static/js/838.f0f11a7d.chunk.js": "/SIT-NovaAPI-test/static/js/838.f0f11a7d.chunk.js",
+    "static/js/956.2d0940ee.chunk.js": "/SIT-NovaAPI-test/static/js/956.2d0940ee.chunk.js",
+    "static/js/415.0ab999f3.chunk.js": "/SIT-NovaAPI-test/static/js/415.0ab999f3.chunk.js",
+    "static/js/870.3da0f9b8.chunk.js": "/SIT-NovaAPI-test/static/js/870.3da0f9b8.chunk.js",
+    "static/js/551.7b4ee1d3.chunk.js": "/SIT-NovaAPI-test/static/js/551.7b4ee1d3.chunk.js",
     "static/media/dev.png": "/SIT-NovaAPI-test/static/media/dev.663e49ce71af7dc38cfd.png",
     "static/media/bg.jpg": "/SIT-NovaAPI-test/static/media/bg.76a5d714c08798862a61.jpg",
     "index.html": "/SIT-NovaAPI-test/index.html",
-    "main.b5320759.css.map": "/SIT-NovaAPI-test/static/css/main.b5320759.css.map",
-    "main.287a1ece.js.map": "/SIT-NovaAPI-test/static/js/main.287a1ece.js.map",
+    "main.bfe65bfc.css.map": "/SIT-NovaAPI-test/static/css/main.bfe65bfc.css.map",
+    "main.324bc5f3.js.map": "/SIT-NovaAPI-test/static/js/main.324bc5f3.js.map",
     "35.c2a63e31.chunk.js.map": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js.map",
-    "699.c1603d66.chunk.js.map": "/SIT-NovaAPI-test/static/js/699.c1603d66.chunk.js.map",
-    "415.9cf5d98e.chunk.js.map": "/SIT-NovaAPI-test/static/js/415.9cf5d98e.chunk.js.map",
-    "838.f0f11a7d.chunk.js.map": "/SIT-NovaAPI-test/static/js/838.f0f11a7d.chunk.js.map"
+    "956.2d0940ee.chunk.js.map": "/SIT-NovaAPI-test/static/js/956.2d0940ee.chunk.js.map",
+    "415.0ab999f3.chunk.js.map": "/SIT-NovaAPI-test/static/js/415.0ab999f3.chunk.js.map",
+    "870.3da0f9b8.chunk.js.map": "/SIT-NovaAPI-test/static/js/870.3da0f9b8.chunk.js.map",
+    "551.7b4ee1d3.chunk.js.map": "/SIT-NovaAPI-test/static/js/551.7b4ee1d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5320759.css",
-    "static/js/main.287a1ece.js"
+    "static/css/main.bfe65bfc.css",
+    "static/js/main.324bc5f3.js"
   ]
 }

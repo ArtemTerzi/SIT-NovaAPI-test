@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksit_novaapi_test=self.webpackChunksit_novaapi_test||[]).push([[415],{6415:function(t,e,n){n.r(e),n.d(e,{default:function(){return a}});var s=n(184),a=function(){return(0,s.jsx)("div",{children:"DepartmentsPage"})}}}]);
-//# sourceMappingURL=415.9cf5d98e.chunk.js.map
