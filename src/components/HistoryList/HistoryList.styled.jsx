@@ -4,8 +4,8 @@ export const Container = styled.div`
   width: 300px;
   height: 280px;
   padding: 12px;
-  background-color: indigo;
-  border: 1px solid #5cd3a9;
+  background-color: ${({ theme }) => theme.colors.primary};
+  border: 1px solid ${({ theme }) => theme.colors.secondary};
   border-radius: 12px;
 
   overflow-y: auto;
@@ -29,7 +29,7 @@ export const SearchesListItem = styled.li`
 
   &:hover,
   &:focus {
-    color: #5cd3a9;
+    color: ${({ theme }) => theme.colors.secondary};
     scale: 1.15;
   }
 `;

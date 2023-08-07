@@ -1,24 +1,50 @@
 import styled from "@emotion/styled";
+import { selectTablet } from "utils/selectMediaReq";
 
-export const Form = styled.form`
+export const Container = styled.form`
   position: relative;
-  width: 600px;
-  margin-bottom: 15px;
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+
+  @media ${selectTablet} {
+    max-width: 600px;
+  }
 `;
 
 export const Input = styled.input`
   width: 100%;
-  padding: 12px 120px 12px 24px;
-  border: 1px solid indigo;
+  padding: 8px 60px 8px 12px;
+  border: 1px solid ${({ theme }) => theme.colors.primary};
   border-radius: 12px;
 
-  font-size: 26px;
+  font-size: 18px;
 
   &:focus {
     box-shadow: 0 9px 15px #858585;
   }
 
   &::placeholder {
-    font-size: 16px;
+    font-size: 18px;
+
+    @media ${selectTablet} {
+      font-size: 20px;
+    }
+  }
+
+  @media ${selectTablet} {
+    font-size: 26px;
+    padding: 12px 120px 12px 24px;
+  }
+`;
+
+export const IconWrapper = styled.button`
+  position: absolute;
+  top: 50%;
+  right: 12px;
+
+  transform: translateY(-50%);
+  @media ${selectTablet} {
+    display: none;
   }
 `;

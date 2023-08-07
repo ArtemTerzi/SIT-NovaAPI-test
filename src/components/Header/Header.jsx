@@ -1,26 +1,14 @@
-import {
-  HeaderContainer,
-  NavItem,
-  NavItemLink,
-  NavList,
-} from "./Header.styled";
+import Navigation from "components/Navigation";
+import { HeaderContainer, NavigationWrapper } from "./Header.styled";
+import BurgerMenu from "components/BurgerMenu";
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <nav>
-        <NavList>
-          <NavItem>
-            <NavItemLink to="/">Home</NavItemLink>
-          </NavItem>
-          <NavItem>
-            <NavItemLink to="/tracking">Tracking</NavItemLink>
-          </NavItem>
-          <NavItem>
-            <NavItemLink to="/departments">Branches</NavItemLink>
-          </NavItem>
-        </NavList>
-      </nav>
+      <NavigationWrapper>
+        <Navigation />
+      </NavigationWrapper>
+      <BurgerMenu />
     </HeaderContainer>
   );
 };

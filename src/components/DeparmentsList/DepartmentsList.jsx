@@ -35,7 +35,6 @@ const DepartmentsList = () => {
       }
     })();
   }, [isCityPicked, query]);
-  console.log(cities.length);
 
   return (
     <>

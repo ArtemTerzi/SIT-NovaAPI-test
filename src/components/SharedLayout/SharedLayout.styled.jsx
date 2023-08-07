@@ -1,12 +1,22 @@
 import styled from "@emotion/styled";
+import { selectDesktop, selectPhone, selectTablet } from "utils/selectMediaReq";
 
-export const GlobalContainer = styled.div`
+export const MainContainer = styled.main`
   width: 100%;
-  height: 100vh;
-  margin: auto;
-`;
+  margin: 0 auto;
+  padding: 0 12px;
 
-export const MainContainer = styled.div`
-  padding-left: 16px;
-  padding-right: 16px;
+  @media ${selectPhone} {
+    min-width: 320px;
+  }
+
+  @media ${selectTablet} {
+    padding: 0 32px;
+    min-width: 768px;
+  }
+
+  @media ${selectDesktop} {
+    min-width: 1280px;
+    padding: 0 16px;
+  }
 `;

@@ -1,6 +1,9 @@
 import styled from "@emotion/styled";
+import { selectTablet } from "utils/selectMediaReq";
 
 export const Button = styled.button`
+  display: none;
+
   position: absolute;
   top: 0;
   right: 0;
@@ -9,9 +12,14 @@ export const Button = styled.button`
   padding: 12px;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
-  background-color: indigo;
+  background-color: ${({ theme }) => theme.colors.primary};
 
   font-size: 20px;
 
   color: white;
+
+  @media ${selectTablet} {
+    display: flex;
+    align-items: center;
+  }
 `;

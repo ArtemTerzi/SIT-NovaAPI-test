@@ -2,11 +2,13 @@ import Footer from "components/Footer";
 import Header from "components/Header";
 import { Suspense } from "react";
 import { Outlet } from "react-router-dom";
-import { GlobalContainer, MainContainer } from "./SharedLayout.styled";
+import { MainContainer } from "./SharedLayout.styled";
+import { ThemeProvider } from "@emotion/react";
+import { theme } from "theme/theme";
 
 const SharedLayout = () => {
   return (
-    <GlobalContainer>
+    <ThemeProvider theme={theme}>
       <Header />
       <MainContainer>
         <Suspense fallback={<div>Loading...</div>}>
@@ -14,7 +16,7 @@ const SharedLayout = () => {
         </Suspense>
       </MainContainer>
       <Footer />
-    </GlobalContainer>
+    </ThemeProvider>
   );
 };
 
