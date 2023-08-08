@@ -5,8 +5,8 @@ import bg from "assets/images/bg.jpg";
 export const MainContainer = styled.main`
   width: 100%;
   margin: 0 auto;
-  min-height: 480px;
-  padding: 0 12px;
+  min-height: 700px;
+  padding: 32px 12px;
   background-image: linear-gradient(
       rgba(92, 211, 169, 0.5),
       rgba(255, 255, 255, 0.5)
@@ -20,12 +20,12 @@ export const MainContainer = styled.main`
   }
 
   @media ${selectTablet} {
-    padding: 0 32px;
+    padding: 60px 32px;
     min-width: 768px;
   }
 
   @media ${selectDesktop} {
     min-width: 1280px;
-    padding: 0 16px;
+    padding: 80px 16px;
   }
 `;

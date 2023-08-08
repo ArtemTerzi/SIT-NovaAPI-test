@@ -1,7 +1,10 @@
 import styled from "@emotion/styled";
-import { selectPhone } from "utils/selectMediaReq";
+import { selectPhone, selectTablet } from "utils/selectMediaReq";
 
 export const CitiesFormWrapper = styled.div`
+  position: relative;
+  display: flex;
+  justify-content: center;
   width: 100%;
 
   @media ${selectPhone} {
@@ -24,17 +27,36 @@ export const CityInput = styled.input`
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
+
+  @media ${selectPhone} {
+    width: 290px;
+  }
+
+  @media ${selectTablet} {
+    width: 600px;
+  }
 `;
 
 export const ItemsList = styled.ul`
+  position: absolute;
+  top: 100%;
   display: flex;
   flex-direction: column;
-  width: 100%;
-  max-height: 600px;
+  width: 600px;
+  max-height: 250px;
+  background-color: white;
 
   border: 1px solid ${({ theme }) => theme.colors.primary};
   border-top: none;
   overflow-y: auto;
+
+  @media ${selectPhone} {
+    width: 290px;
+  }
+
+  @media ${selectTablet} {
+    width: 600px;
+  }
 `;
 
 export const Item = styled.li`

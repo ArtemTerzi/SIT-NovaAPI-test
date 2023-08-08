@@ -36,7 +36,7 @@ const FindParceleForm = () => {
           required
           placeholder="Write TTN Number here..."
         />
-        <SearchButton title="Get Status TTN" />
+        <SearchButton title="Search" />
         <IconWrapper type="submit">
           <Icon iconName="icon-search" width="32" height="32" />
         </IconWrapper>

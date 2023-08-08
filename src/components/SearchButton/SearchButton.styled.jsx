@@ -14,12 +14,20 @@ export const Button = styled.button`
   border-bottom-right-radius: 12px;
   background-color: ${({ theme }) => theme.colors.primary};
 
+  color: white;
+  font-weight: 700;
   font-size: 20px;
 
-  color: white;
+  transition: color 300ms linear, background-color 300ms linear;
 
   @media ${selectTablet} {
     display: flex;
     align-items: center;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.primary};
   }
 `;

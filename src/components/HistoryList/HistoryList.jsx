@@ -17,16 +17,23 @@ const HistoryList = () => {
   };
 
   return (
-    <Container>
-      <h2>Search history</h2>
-      <SearchesList>
-        {reversedList.map(({ createdAt, Number }) => (
-          <SearchesListItem key={createdAt} onClick={() => handleClick(Number)}>
-            {Number}
-          </SearchesListItem>
-        ))}
-      </SearchesList>
-    </Container>
+    <>
+      {reversedList.length !== 0 && (
+        <Container>
+          <h2>Search history</h2>
+          <SearchesList>
+            {reversedList.map(({ createdAt, Number }) => (
+              <SearchesListItem
+                key={createdAt}
+                onClick={() => handleClick(Number)}
+              >
+                {Number}
+              </SearchesListItem>
+            ))}
+          </SearchesList>
+        </Container>
+      )}
+    </>
   );
 };
 

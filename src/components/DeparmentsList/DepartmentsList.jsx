@@ -54,14 +54,14 @@ const DepartmentsList = () => {
             ))}
           </ItemsList>
         )}
+        {departments && isCityPicked && (
+          <ItemsList>
+            {departments.map(({ Ref, Description }) => (
+              <Item key={Ref}>{Description}</Item>
+            ))}
+          </ItemsList>
+        )}
       </CitiesFormWrapper>
-      {departments && isCityPicked && (
-        <Item>
-          {departments.map(({ Ref, Description }) => (
-            <Item key={Ref}>{Description}</Item>
-          ))}
-        </Item>
-      )}
     </>
   );
 };
