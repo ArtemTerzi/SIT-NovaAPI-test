@@ -7,6 +7,11 @@ export const HeaderContainer = styled.header`
   height: 60px;
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
+
+  @media ${selectTablet} {
+    align-items: center;
+    height: 90px;
+  }
 `;
 
 export const NavigationWrapper = styled.div`

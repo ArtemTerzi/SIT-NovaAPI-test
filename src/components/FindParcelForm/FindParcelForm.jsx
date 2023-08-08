@@ -5,21 +5,20 @@ import { getDeliveryStatus } from "redux/tracking/operations";
 import { Container, IconWrapper, Input } from "./FindParcelForm.styled";
 import Icon from "components/Icon";
 import { ttnValidation } from "utils/ttnValidation";
+import { toast } from "react-toastify";
 
 const FindParceleForm = () => {
   const [packageId, setPackageId] = useState("");
-  const [error, setError] = useState(false);
   const dispatch = useDispatch();
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (ttnValidation(packageId)) {
-      setError(false);
+      toast.success("We found your parcel!");
       dispatch(getDeliveryStatus(packageId));
     } else {
-      setError(true);
-      console.log("Wrong Request");
+      toast.error("The TTN number must contain 14 digits");
     }
   };
 
@@ -36,16 +35,11 @@ const FindParceleForm = () => {
           required
           placeholder="Write TTN Number here..."
         />
-        <SearchButton title="Get Status TTN" />
+        <SearchButton title="Search" />
         <IconWrapper type="submit">
           <Icon iconName="icon-search" width="32" height="32" />
         </IconWrapper>
       </Container>
-      {error && (
-        <div style={{ color: "red", marginBottom: 12 }}>
-          Error: The TTN number must contain 14 digits
-        </div>
-      )}
     </>
   );
 };
