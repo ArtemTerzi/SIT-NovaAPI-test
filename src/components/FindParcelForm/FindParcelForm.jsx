@@ -1,15 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import SearchButton from "components/SearchButton";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { getDeliveryStatus } from "redux/tracking/operations";
 import { Container, IconWrapper, Input } from "./FindParcelForm.styled";
 import Icon from "components/Icon";
 import { ttnValidation } from "utils/ttnValidation";
 import { toast } from "react-toastify";
+import { selectParcel } from "redux/tracking/selectors";
 
 const FindParceleForm = () => {
   const [packageId, setPackageId] = useState("");
   const dispatch = useDispatch();
+  const { Number } = useSelector(selectParcel);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -25,6 +27,10 @@ const FindParceleForm = () => {
   const handleChange = ({ target: { value } }) => {
     setPackageId(value);
   };
+
+  useEffect(() => {
+    if (Number !== null) setPackageId(Number);
+  }, [Number]);
 
   return (
     <>

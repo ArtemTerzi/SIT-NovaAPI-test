@@ -35,3 +35,24 @@ export const SearchesListItem = styled.li`
     scale: 1.15;
   }
 `;
+
+export const TitleWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const ClearHistoryBtn = styled.button`
+  padding: 4px 8px;
+  background-color: ${({ theme }) => theme.colors.secondary};
+  border-radius: 16px;
+  border: 1px solid white;
+  color: white;
+  font-weight: 700;
+  transition: all 300ms linear;
+
+  &:hover,
+  &:focus {
+    scale: 1.2;
+  }
+`;

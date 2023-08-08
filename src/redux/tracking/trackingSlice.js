@@ -18,6 +18,13 @@ const initialState = {
 const trackingSlice = createSlice({
   name: "tracking",
   initialState: initialState,
+  reducers: {
+    clearSearchHistory: {
+      reducer(state) {
+        state.searchHistoryList = [];
+      },
+    },
+  },
   extraReducers: (builder) => {
     builder
       .addCase(getDeliveryStatus.fulfilled, (state, { payload }) => {
@@ -37,3 +44,4 @@ const trackingSlice = createSlice({
 });
 
 export const trackingReducer = trackingSlice.reducer;
+export const { clearSearchHistory } = trackingSlice.actions;
