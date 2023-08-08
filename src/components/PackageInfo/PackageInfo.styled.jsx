@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import { selectTablet } from "utils/selectMediaReq";
+import { selectDesktop, selectTablet } from "utils/selectMediaReq";
 
 export const Container = styled.div`
   display: flex;
@@ -18,6 +18,10 @@ export const Container = styled.div`
   color: white;
 
   @media ${selectTablet} {
+    width: 400px;
+  }
+
+  @media ${selectDesktop} {
     width: 600px;
   }
 `;

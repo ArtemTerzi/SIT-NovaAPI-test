@@ -1,11 +1,11 @@
 import Icon from "components/Icon";
 import { IconWrapper } from "./BurgerMenu.styled";
 
-const BurgerMenu = () => {
+const BurgerMenu = ({ iconName }) => {
   return (
     <IconWrapper>
       <Icon
-        iconName="icon-menu"
+        iconName={iconName}
         fill="black"
         width="32px"
         height="32px"

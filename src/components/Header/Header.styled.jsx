@@ -2,7 +2,6 @@ import styled from "@emotion/styled";
 import { selectTablet } from "utils/selectMediaReq";
 
 export const HeaderContainer = styled.header`
-  position: relative;
   display: flex;
   width: 100%;
   height: 60px;

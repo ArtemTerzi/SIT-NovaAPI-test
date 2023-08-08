@@ -1,15 +1,21 @@
 import styled from "@emotion/styled";
 import { NavLink } from "react-router-dom";
+import { selectTablet } from "utils/selectMediaReq";
 
 export const NavList = styled.ul`
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
   gap: 30px;
   width: 100%;
 
   margin-top: 8px;
   margin-bottom: 8px;
+
+  @media ${selectTablet} {
+    justify-content: center;
+    flex-direction: row;
+  }
 `;
 
 export const NavItem = styled.li`
