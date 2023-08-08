@@ -1,10 +1,19 @@
 import styled from "@emotion/styled";
 import { selectDesktop, selectPhone, selectTablet } from "utils/selectMediaReq";
+import bg from "assets/images/bg.jpg";
 
 export const MainContainer = styled.main`
   width: 100%;
   margin: 0 auto;
+  min-height: 480px;
   padding: 0 12px;
+  background-image: linear-gradient(
+      rgba(92, 211, 169, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url(${bg});
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @media ${selectPhone} {
     min-width: 320px;
