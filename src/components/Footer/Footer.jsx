@@ -19,6 +19,13 @@ const Footer = () => {
         >
           <Icon iconName="icon-github" width="32" height="32" />
         </SocialLink>
+        <SocialLink
+          href="https://t.me/Drabing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon iconName="icon-telegram" width="32" height="32" />
+        </SocialLink>
       </Socials>
     </FooterContainer>
   );

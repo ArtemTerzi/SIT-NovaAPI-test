@@ -9,9 +9,13 @@ import Modal from "components/Modal";
 import BurgerMenu from "components/BurgerMenu";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Loader from "components/Loader";
+import { selectIsRefreshing } from "redux/tracking/selectors";
+import { useSelector } from "react-redux";
 
 const SharedLayout = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const isRefreshing = useSelector(selectIsRefreshing);
 
   const toogleModal = () => setIsModalOpen(!isModalOpen);
 
@@ -19,7 +23,7 @@ const SharedLayout = () => {
     <ThemeProvider theme={theme}>
       <Header />
       <MainContainer>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Loader />}>
           <Outlet />
         </Suspense>
       </MainContainer>
@@ -29,6 +33,7 @@ const SharedLayout = () => {
       </div>
       <Modal open={isModalOpen} toogleModal={() => toogleModal()} />
       <ToastContainer position="bottom-right" autoClose={5000} closeOnClick />
+      {isRefreshing && <Loader />}
     </ThemeProvider>
   );
 };
