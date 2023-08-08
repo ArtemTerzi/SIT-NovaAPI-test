@@ -6,12 +6,14 @@ import {
   CityInput,
   Item,
 } from "./DepartmentsList.styled";
+import { toast } from "react-toastify";
 
 const DepartmentsList = () => {
   const [query, setQuery] = useState("");
   const [cities, setCities] = useState([]);
   const [isCityPicked, setIsCityPicked] = useState(false);
   const [departments, setDepartmens] = useState([]);
+  const [isActiveError, setIsActiveError] = useState(false);
 
   const handleChange = ({ target: { value } }) => {
     if (isCityPicked) setIsCityPicked(false);
@@ -24,6 +26,7 @@ const DepartmentsList = () => {
     setCities([]);
 
     const result = await getDepartmentsList(DeliveryCity);
+    if (result) toast.success(`Branches in the "${Present}" was found`);
     setDepartmens(result);
   };
 
@@ -32,9 +35,18 @@ const DepartmentsList = () => {
       if (!isCityPicked) {
         const result = await getCitiesList(query);
         if (Array.isArray(result)) setCities(result);
+        else if (!isActiveError) {
+          setIsActiveError(true);
+
+          setTimeout(() => {
+            setIsActiveError(false);
+          }, 3000);
+
+          toast.error("Enter the name of the city in Ukrainian");
+        }
       }
     })();
-  }, [isCityPicked, query]);
+  }, [isActiveError, isCityPicked, query]);
 
   return (
     <>
