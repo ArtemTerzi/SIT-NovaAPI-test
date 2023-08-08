@@ -1,17 +1,18 @@
 import FindParcelForm from "components/FindParcelForm";
 import HistoryList from "components/HistoryList";
 import PackageInfo from "components/PackageInfo";
+import { DeatailsWrapper, Main, PageTitle } from "./TrackingPage.styled";
 
 const TrackingPage = () => {
   return (
-    <>
-      <h2>Find your parcel!</h2>
+    <Main>
+      <PageTitle>Find your parcel!</PageTitle>
       <FindParcelForm />
-      <div>
+      <DeatailsWrapper>
         <PackageInfo />
         <HistoryList />
-      </div>
-    </>
+      </DeatailsWrapper>
+    </Main>
   );
 };
 

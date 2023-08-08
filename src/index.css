@@ -1,5 +1,11 @@
 @import-normalize;
 
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -17,13 +23,7 @@ code {
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
-}
-
-html {
   box-sizing: border-box;
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 h1,

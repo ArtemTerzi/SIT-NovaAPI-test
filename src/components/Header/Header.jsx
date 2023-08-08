@@ -1,22 +1,15 @@
-import { NavLink } from "react-router-dom";
+import Navigation from "components/Navigation";
+import { HeaderContainer, NavigationWrapper } from "./Header.styled";
+import BurgerMenu from "components/BurgerMenu";
 
 const Header = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/tracking">Tracking</NavLink>
-          </li>
-          <li>
-            <NavLink to="/departments">Departmens</NavLink>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <HeaderContainer>
+      <NavigationWrapper>
+        <Navigation />
+      </NavigationWrapper>
+      <BurgerMenu />
+    </HeaderContainer>
   );
 };
 

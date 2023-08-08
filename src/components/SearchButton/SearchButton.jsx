@@ -1,4 +1,4 @@
-import Button from "@mui/material/Button";
+import { Button } from "./SearchButton.styled";
 
 const SearchButton = ({ title }) => {
   return (
