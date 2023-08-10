@@ -2,8 +2,10 @@ import styled from "@emotion/styled";
 
 export const DevContainer = styled.div`
   position: absolute;
-  left: 100px;
-  bottom: 100px;
+  left: 50%;
+  top: -25px;
+
+  transform: translateX(-50%);
 `;
 
 export const Person = styled.div`
@@ -74,11 +76,11 @@ export const Circle = styled.img`
 export const Divider = styled.div`
   position: absolute;
   top: 0;
-  left: 100%;
+  left: 70%;
   display: flex;
-  padding: 6px;
+  padding: 4px;
   flex-direction: column;
-  width: 250px;
+  width: 230px;
   justify-content: center;
   align-items: center;
   background-color: rgba(225, 225, 225, 0.6);

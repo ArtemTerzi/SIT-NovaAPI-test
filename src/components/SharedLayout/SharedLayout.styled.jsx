@@ -5,7 +5,7 @@ import bg from "assets/images/bg.jpg";
 export const MainContainer = styled.main`
   width: 100%;
   margin: 0 auto;
-  min-height: 700px;
+  min-height: 750px;
   padding: 32px 12px;
   background-image: linear-gradient(
       rgba(92, 211, 169, 0.5),
