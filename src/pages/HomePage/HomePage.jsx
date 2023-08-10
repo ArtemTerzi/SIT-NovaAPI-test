@@ -40,9 +40,9 @@ const HomePage = () => {
             get the delivery status of the TTN, a prompt must be shown and the
             request should not be sent. <br />
             <b>9)</b> By going to the second tab, the user should be able to see
-            a list of New Mail branches, for which you need to make an
-            appropriate request to the New Mail API and display them as a list
-            at your discretion.
+            a list of Nova Poshta branches, for which you need to make an
+            appropriate request to the Nova Poshta API and display them as a
+            list at your discretion.
           </span>
         </TS>
       </AdditionalInfo>

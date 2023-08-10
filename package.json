@@ -7,8 +7,6 @@
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
-    "@mui/icons-material": "^5.14.3",
-    "@mui/material": "^5.14.3",
     "@reduxjs/toolkit": "^1.9.5",
     "axios": "^1.4.0",
     "prop-types": "^15.8.1",
@@ -48,8 +46,5 @@
     ]
   },
   "author": "Artem Terzi",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
-  }
+  "license": "ISC"
 }
