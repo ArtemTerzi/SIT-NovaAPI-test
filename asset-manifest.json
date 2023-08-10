@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SIT-NovaAPI-test/static/css/main.6185e472.css",
-    "main.js": "/SIT-NovaAPI-test/static/js/main.988f8254.js",
-    "static/js/855.51127524.chunk.js": "/SIT-NovaAPI-test/static/js/855.51127524.chunk.js",
+    "main.js": "/SIT-NovaAPI-test/static/js/main.0c09f073.js",
+    "static/js/855.36de7f72.chunk.js": "/SIT-NovaAPI-test/static/js/855.36de7f72.chunk.js",
     "static/js/972.ef172e05.chunk.js": "/SIT-NovaAPI-test/static/js/972.ef172e05.chunk.js",
     "static/js/132.b0e3024b.chunk.js": "/SIT-NovaAPI-test/static/js/132.b0e3024b.chunk.js",
     "static/media/dev.png": "/SIT-NovaAPI-test/static/media/dev.663e49ce71af7dc38cfd.png",
@@ -11,13 +11,13 @@
     "static/media/sptire.svg": "/SIT-NovaAPI-test/static/media/sptire.5a1199d2b2a7b8adbde09b942f997b52.svg",
     "index.html": "/SIT-NovaAPI-test/index.html",
     "main.6185e472.css.map": "/SIT-NovaAPI-test/static/css/main.6185e472.css.map",
-    "main.988f8254.js.map": "/SIT-NovaAPI-test/static/js/main.988f8254.js.map",
-    "855.51127524.chunk.js.map": "/SIT-NovaAPI-test/static/js/855.51127524.chunk.js.map",
+    "main.0c09f073.js.map": "/SIT-NovaAPI-test/static/js/main.0c09f073.js.map",
+    "855.36de7f72.chunk.js.map": "/SIT-NovaAPI-test/static/js/855.36de7f72.chunk.js.map",
     "972.ef172e05.chunk.js.map": "/SIT-NovaAPI-test/static/js/972.ef172e05.chunk.js.map",
     "132.b0e3024b.chunk.js.map": "/SIT-NovaAPI-test/static/js/132.b0e3024b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6185e472.css",
-    "static/js/main.988f8254.js"
+    "static/js/main.0c09f073.js"
   ]
 }
