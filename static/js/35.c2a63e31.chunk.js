@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksit_novaapi_test=self.webpackChunksit_novaapi_test||[]).push([[35],{2035:function(t,e,n){n.r(e),n.d(e,{default:function(){return s}});var i=n(184),s=function(){return(0,i.jsx)("div",{children:"HomePage"})}}}]);
-//# sourceMappingURL=35.c2a63e31.chunk.js.map

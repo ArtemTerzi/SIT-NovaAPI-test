@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/SIT-NovaAPI-test/static/css/main.6185e472.css",
-    "main.js": "/SIT-NovaAPI-test/static/js/main.48e67b72.js",
-    "static/js/35.c2a63e31.chunk.js": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js",
+    "main.js": "/SIT-NovaAPI-test/static/js/main.988f8254.js",
+    "static/js/855.51127524.chunk.js": "/SIT-NovaAPI-test/static/js/855.51127524.chunk.js",
     "static/js/972.ef172e05.chunk.js": "/SIT-NovaAPI-test/static/js/972.ef172e05.chunk.js",
     "static/js/132.b0e3024b.chunk.js": "/SIT-NovaAPI-test/static/js/132.b0e3024b.chunk.js",
+    "static/media/dev.png": "/SIT-NovaAPI-test/static/media/dev.663e49ce71af7dc38cfd.png",
     "static/media/bg.jpg": "/SIT-NovaAPI-test/static/media/bg.93734c12a01119b20157.jpg",
     "static/media/packcage-info-placeholder.jpg": "/SIT-NovaAPI-test/static/media/packcage-info-placeholder.85b6a95017c3ed790308.jpg",
     "static/media/sptire.svg": "/SIT-NovaAPI-test/static/media/sptire.5a1199d2b2a7b8adbde09b942f997b52.svg",
     "index.html": "/SIT-NovaAPI-test/index.html",
     "main.6185e472.css.map": "/SIT-NovaAPI-test/static/css/main.6185e472.css.map",
-    "main.48e67b72.js.map": "/SIT-NovaAPI-test/static/js/main.48e67b72.js.map",
-    "35.c2a63e31.chunk.js.map": "/SIT-NovaAPI-test/static/js/35.c2a63e31.chunk.js.map",
+    "main.988f8254.js.map": "/SIT-NovaAPI-test/static/js/main.988f8254.js.map",
+    "855.51127524.chunk.js.map": "/SIT-NovaAPI-test/static/js/855.51127524.chunk.js.map",
     "972.ef172e05.chunk.js.map": "/SIT-NovaAPI-test/static/js/972.ef172e05.chunk.js.map",
     "132.b0e3024b.chunk.js.map": "/SIT-NovaAPI-test/static/js/132.b0e3024b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6185e472.css",
-    "static/js/main.48e67b72.js"
+    "static/js/main.988f8254.js"
   ]
 }
